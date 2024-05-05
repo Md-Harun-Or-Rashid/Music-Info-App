@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Project Two</title>
+</head>
+
+<body>
+
+<header>
+    <h1>Welcome to Music info</h1>
+</header>
+    
+    <div class="container">
+        
+    <div id="artistDetails" class="left-div">
+
+    </div>
+    <div id="artistNameList" class="right-div">
+        <label for="search"><input type="text" id="InputSearchValue" placeholder="Please write an artist name "><button id="searchArtistButton">Search</button></label>
+        <h4> Please select an artist from the list:</h4>
+    </div>
+
+    </div>
+
+    <!--We can place Javascript external file in head section , but it is part of the best practices to place javascript file at the end of body section before closing body tag. It is to avoid blocking page. -->
+    <script src="main.js"></script>
+    <script>
+        window.onload=dataload;
+    </script>
+    <script>document.write(artistName)</script>
+<footer>
+    &copy; 2024 Music Info App
+</footer>
+
+</body>
+
+</html>
